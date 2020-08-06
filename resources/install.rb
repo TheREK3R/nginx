@@ -1,3 +1,5 @@
+provides :nginx_install
+
 property :ohai_plugin_enabled, [true, false],
          description: 'Whether or not ohai_plugin is enabled.',
          equal_to: [true, false],
